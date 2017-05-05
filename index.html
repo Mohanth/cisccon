@@ -1,0 +1,487 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Codystar|Raleway+Dots|Share+Tech+Mono');
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+
+}
+.container{
+  background-color: black;
+}
+.bg{
+  width: 100%;
+  height: 86%;
+  background-image: url("images/background2.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+
+  color:rgba(7, 247, 7, 0.85);
+font-family: 'Share Tech Mono', monospace;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .10em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.bg-in1{
+  top:60%;
+  left:15%;
+  position:absolute;
+  font-size: 20px;
+}
+.bg-in1 a{
+  font-size: 15px;
+text-decoration: none;
+  color:#ccc;
+  border-bottom: 1px solid white;
+
+}
+.bg-in2 a{
+  text-decoration: none;
+  color:#888;
+  font-size: 25px;
+border-bottom: 1px solid white;
+  padding: 5px;
+  border-radius: 5px
+}
+.bg-in2 a:hover{
+  color:white;
+  box-shadow: 5px 5px 5px #888888;
+}
+.bg-in2{
+  top:60%;
+  left:75%;
+  position:absolute;
+}
+.bg-in3{
+  top:20%;
+  left:45%;
+  position:absolute;
+}
+nav img{
+  height: 90px;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+li{
+  float: left;
+  left:0;
+}
+li a{
+  display: block;
+  padding: 15px;
+  color:#888;
+  text-decoration: none;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 20px;
+}
+li a:hover{
+  color:white;
+}
+.active{
+  color:white;
+  border-bottom: 1px solid #ccc;
+}
+
+.flex-container{
+  text-align: center;
+  display: flex;
+  left:20%;
+  display: -webkit-flex;
+  width:950px;
+  height: 350px;
+
+}
+
+.flex-item1,.flex-item3{
+  background-color: white;
+  border: 1px solid #ccc;
+  margin:10px;
+}
+.flex-item2,.flex-item4{
+  margin:10px;
+  border: 1px solid black;
+}
+.item2,.item3{
+  flex:1;
+}
+.item1{
+  flex:2;
+}
+.speakers-card{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.paddings-extra {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.container1 {
+    width: 970px;
+}
+.row{
+  padding-left: 10% ;
+  padding-bottom: 2rem;
+}
+.col-md-6 {
+  text-align: center;
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin: 15px;
+    padding-bottom: 2rem;
+}
+.bottom-zero {
+    margin-bottom: 0px;
+}
+.lead{
+  font-size: 25px;
+  font-weight: 300;
+    line-height: 1.4;
+    border-bottom: 1px solid #333;
+}
+.clearfix{
+  padding:0 15%;
+}
+.text-center {
+    text-align: center;
+}
+.updates{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+}
+.left{
+  width: 50%;
+  padding: 10px;
+}
+.right{
+  width: 50%;
+  padding: 10px;
+}
+.left,.right{
+  float: left;
+  min-height: 450px;
+
+}
+
+.hr{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 20px;
+    border-top: 1px solid #ccc;
+
+}
+
+.sponsers{
+  width: 1000px;
+	overflow: hidden;
+	margin: 50px auto;
+	background: white;
+}
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+#footer-bottom {
+    background-color: black;
+    font-family: a_love_of_thunderregular,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding-top: 19px;
+    padding-left: 10px;
+    height: 50px;
+    color:white;
+    text-transform: uppercase;
+}
+#footer-bottom a{
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+<nav>
+  <img src="images/cisc.gif">
+  <ul>
+    <li>
+      <a href="#" class="active">Home</a>
+    </li>
+    <li>
+      <a href="#">Events</a>
+    </li>
+    <li>
+      <a href="#">Sponsers</a>
+    </li>
+    <li>
+      <a href="#">Registration</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+<div class="bg">
+  <div class="typewriter">
+<h1 style="font-family: 'Share Tech Mono', monospace;">Welcome to CISC Conference.</h1>
+</div>
+    <div class="bg-in1">New to CISC'CON?  <a href="#">start here</a></div>
+    <div class="bg-in2"><a href="#">Why to attend?</a></div>
+
+</div>
+</div>
+
+<div class="clearfix">
+  <!--
+  <div class="wpb_wrapper">
+    <h1 style="text-align: center; font-size: 29.022px; line-height: 41.334px;" data-fontsize="33" data-lineheight="47"><strong>“Speakers of Conference”</strong></h1>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item1 item1">
+      <p><span style="padding:5px;border-bottom:1px solid #ccc;">Mr. Hero</span></p>
+      <p><img class="speakers-card" src="images/speaker.jpg"></p>
+      <p>Disignation</p>
+    </div>
+    <div class="flex-item2 item2">
+      <p><span style="padding:5px;">Mr. Hero</span></p>
+      <p><img class="speakers-card" src="images/speaker.jpg"></p>
+      <p>Disignation</p>
+    </div>
+    <div class="flex-item3 item3">
+      <p><span style="padding:5px;border-bottom:1px solid #ccc;">Mr. Hero</span></p>
+      <p><img class="speakers-card" src="images/speaker.jpg"></p>
+      <p>Disignation</p>
+    </div>
+    <div class="flex-item4 item3">
+      <p><span style="padding:5px;">Mr. Hero</span></p>
+      <p><img class="speakers-card" src="images/speaker.jpg"></p>
+      <p>Disignation</p>
+    </div>
+  </div>-->
+  <h1 style="text-align: center; font-size: 29.022px; line-height: 41.334px;" data-fontsize="33" data-lineheight="47"><strong>“Speakers of Conference”</strong></h1>
+<hr></hr>
+  <div class="w3-row-padding w3-margin-top">
+
+    <div class="w3-third">
+      <div class="w3-card-2">
+        <img src="images/speaker2.png" style="width:100%;border-radius:50%;">
+        <div class="w3-container">
+          <h5>Name</h5>
+          <p>Designation</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="w3-third">
+      <div class="w3-card-2">
+        <img src="images/speaker2.png" style="width:100%">
+        <div class="w3-container">
+          <h5>Name</h5>
+          <p>Designation</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card-2">
+        <img src="images/speaker2.png" style="width:100%;border-radius:50%;">
+        <div class="w3-container">
+          <h5>Name</h5>
+          <p>Designation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-margin-top">
+    <div class="w3-third">
+      <div class="w3-card-2">
+        <img src="images/speaker2.png" style="width:100%;">
+        <div class="w3-container">
+          <h5>Name</h5>
+          <p>Designation</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card-2">
+        <img src="images/speaker2.png" style="width:100%;border-radius:50%;">
+        <div class="w3-container">
+          <h5>Name</h5>
+          <p>Designation</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card-2">
+        <img src="images/speaker2.png" style="width:100%">
+        <div class="w3-container">
+          <h5>Name</h5>
+          <p>Designation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<div class="row">
+  <div class="col-md-6">
+          <h3 class="lead bottom-zero">Events</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, . Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-md-6">
+          <h3 class="lead">News</h3>
+          <ul style="list-style-type:Dots">
+            <li>
+              Lorem ipsum dolor sit amet
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet
+            </li>
+          </ul>
+      </div>
+
+    </div>-->
+
+    <div class="updates">
+      <div class="left">
+        <p style="font-size:25px;font-family: 'Share Tech Mono', monospace;">Events</p>
+        <p class="hr"></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="right">
+        <p style="font-size:25px;font-family: 'Share Tech Mono', monospace;">News</p>
+        <p class="hr"></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do</p>
+      </div>
+  </div>
+<h1 class="second">Our beloved sponsors</h1></br>
+<div class="sponsers">
+  <div class="photobanner">
+    <img class="first" src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+    <img src="images/speaker.jpg" alt="" />
+  </div>
+</div>
+<div id="footer-bottom">
+    © CISC 2017. | <a href="#">Blog</a> | <a href="#">Home</a>
+		</div>
+</body>
+</html>
