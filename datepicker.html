@@ -1,0 +1,33 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+<script>
+var jsonData = '{"2019-04-03":{"10:00" : 10,"10:30": 20,"11:00": 0},"2019-04-04":{"12:00" : 10,"12:30": 20,"11:00": 0}}'
+var jsonObj = JSON.parse(jsonData);
+$(function() {
+		$( "#datepicker-13" ).datepicker({ dateFormat: "yy-mm-dd" });
+		$( "#datepicker-13" ).on("change",function(){
+			var selectedDate = $(this).val();
+			getTimeslots(selectedDate);
+    });
+});
+
+function getTimeslots(selectedDate){
+	var date=jsonObj[selectedDate];
+	$.each(date, function(key,value){
+		var something = $('<input/>').attr({ type:'button', name:'btn1', value:key, disabled:date[key]>0?false:true });
+		$("#item").append(something);
+		});
+}
+</script>
+</head>
+<body>
+<div>
+<input type = "text" id = "datepicker-13"></p>
+</div>
+<div id="item"></div>
+</body>
+</html>
